@@ -1,0 +1,19 @@
+[
+  {
+    "name": "prismic-preview",
+    "path": "/preview",
+    "component": "C:\\\\Users\\\\diego\\\\OneDrive\\\\Documentos\\\\almamartech\\\\.nuxt\\\\prismic\\\\pages\\\\preview.vue"
+  },
+  {
+    "name": "slice-simulator",
+    "path": "/slice-simulator",
+    "component": "C:\\\\Users\\\\diego\\\\OneDrive\\\\Documentos\\\\almamartech\\\\pages\\\\slice-simulator.vue",
+    "chunkName": "pages/slice-simulator"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\diego\\\\OneDrive\\\\Documentos\\\\almamartech\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
