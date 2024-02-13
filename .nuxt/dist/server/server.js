@@ -1259,7 +1259,7 @@ async function setContext(app, context) {
   // If context not defined, create it
   if (!app.context) {
     app.context = {
-      isStatic: false,
+      isStatic: true,
       isDev: false,
       isHMR: false,
       app,
@@ -1798,9 +1798,9 @@ function shouldScrollToTop(route) {
 
 
 
-const _4eb1e92b = () => interopDefault(__webpack_require__.e(/* import() */ 5).then(__webpack_require__.bind(null, 36)));
-const _e8a9ed3c = () => interopDefault(__webpack_require__.e(/* import() | pages/slice-simulator */ 4).then(__webpack_require__.bind(null, 35)));
-const _4cb55d6b = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 3).then(__webpack_require__.bind(null, 37)));
+const _286896f7 = () => interopDefault(__webpack_require__.e(/* import() */ 5).then(__webpack_require__.bind(null, 36)));
+const _6922432e = () => interopDefault(__webpack_require__.e(/* import() | pages/slice-simulator */ 4).then(__webpack_require__.bind(null, 35)));
+const _726fb392 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 3).then(__webpack_require__.bind(null, 37)));
 const emptyFn = () => {};
 external_vue_default.a.use(external_vue_router_default.a);
 const routerOptions = {
@@ -1811,15 +1811,15 @@ const routerOptions = {
   scrollBehavior: router_scrollBehavior,
   routes: [{
     path: "/preview",
-    component: _4eb1e92b,
+    component: _286896f7,
     name: "prismic-preview"
   }, {
     path: "/slice-simulator",
-    component: _e8a9ed3c,
+    component: _6922432e,
     name: "slice-simulator"
   }, {
     path: "/",
-    component: _4cb55d6b,
+    component: _726fb392,
     name: "index"
   }],
   fallback: false
@@ -1991,7 +1991,7 @@ var nuxt_error_component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   null,
-  "1d57b69e"
+  "53eb2efa"
   
 )
 
@@ -2256,7 +2256,7 @@ var nuxt_loading_component = Object(componentNormalizer["a" /* default */])(
   false,
   nuxt_loading_injectStyles,
   null,
-  "c6c8f75c"
+  "7c3255ae"
   
 )
 
@@ -2285,7 +2285,7 @@ var default_component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "09bda3c8"
+  "9e0cddb8"
   
 )
 
@@ -2362,6 +2362,9 @@ const layouts = {
     },
     isFetching() {
       return this.nbFetching > 0;
+    },
+    isPreview() {
+      return Boolean(this.$options.previewData);
     }
   },
   methods: {
@@ -2600,10 +2603,7 @@ var external_prismic_dom_default = /*#__PURE__*/__webpack_require__.n(external_p
   // Load prismic script after Nuxt app is mounted
   if (false) {}
   // Preview mode
-  if ( true && route.path === '/preview') {
-    // Server side
-    await prismic.preview();
-  }
+  if (false) {}
   if (false) {}
 });
 // EXTERNAL MODULE: ./node_modules/@prismicio/vue/components/common.js

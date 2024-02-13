@@ -121,7 +121,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   injectStyles,
   "0666a323",
-  "6c564a88"
+  "4bed1be4"
   
 )
 
@@ -160,7 +160,7 @@ var slice_simulator_component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "c903d814"
+  "42ba0152"
   
 )
 

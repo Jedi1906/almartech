@@ -4,9 +4,9 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _4eb1e92b = () => interopDefault(import('.\\prismic\\pages\\preview.vue' /* webpackChunkName: "" */))
-const _e8a9ed3c = () => interopDefault(import('..\\pages\\slice-simulator.vue' /* webpackChunkName: "pages/slice-simulator" */))
-const _4cb55d6b = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _286896f7 = () => interopDefault(import('.\\prismic\\pages\\preview.vue' /* webpackChunkName: "" */))
+const _6922432e = () => interopDefault(import('..\\pages\\slice-simulator.vue' /* webpackChunkName: "pages/slice-simulator" */))
+const _726fb392 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -21,15 +21,15 @@ export const routerOptions = {
 
   routes: [{
     path: "/preview",
-    component: _4eb1e92b,
+    component: _286896f7,
     name: "prismic-preview"
   }, {
     path: "/slice-simulator",
-    component: _e8a9ed3c,
+    component: _6922432e,
     name: "slice-simulator"
   }, {
     path: "/",
-    component: _4cb55d6b,
+    component: _726fb392,
     name: "index"
   }],
 
